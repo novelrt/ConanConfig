@@ -4,9 +4,9 @@ os_build=Linux
 arch=x86_64
 arch_build=x86_64
 compiler=clang
-compiler.version=12
+compiler.version=11
 compiler.libcxx=libstdc++11
-build_type=MinSizeRel
+build_type=RelWithDebInfo
 [options]
 [build_requires]
 [env]
