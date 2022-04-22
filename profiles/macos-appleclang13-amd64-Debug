@@ -6,7 +6,7 @@ arch_build=x86_64
 compiler=apple-clang
 compiler.version=13
 compiler.libcxx=libc++
-build_type=MinSizeRel
+build_type=Debug
 [options]
 [build_requires]
 [env]
