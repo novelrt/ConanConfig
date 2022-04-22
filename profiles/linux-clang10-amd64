@@ -6,9 +6,9 @@ arch_build=x86_64
 compiler=clang
 compiler.version=10
 compiler.libcxx=libstdc++11
-build_type=Release
+build_type=MinSizeRel
 [options]
 [build_requires]
 [env]
-CC=clang
-CXX=clang++
+CC=clang10
+CXX=clang++10
